@@ -12,8 +12,14 @@
             "email": "john.hoopes@madisoncreativeweb.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/x-yuri/framework"
+        }
+    ],
     "require": {
-        "laravel/framework": "^5.1",
+        "laravel/framework": "dev-testing-encoding",
         "symfony/process": ">=2.7",
         "phpunit/phpunit-selenium": ">=1.2",
         "guzzlehttp/guzzle": "^6.2"
